@@ -2,4 +2,4 @@
 . "$(dirname "$0")/_/husky.sh"
 
 echo "Salam precommit hook"
-yarn prettier:check
+yarn lint:check

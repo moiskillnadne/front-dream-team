@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 import logo from './logo.svg'
 import './App.css'
 
@@ -16,16 +16,10 @@ function App() {
           </button>
         </p>
         <p>
-          Edit <code>App.tsx</code> and save to test HMR updates. development
-          branch
+          Edit <code>App.tsx</code> and save to test HMR updates. development branch
         </p>
         <p>
-          <a
-            className='App-link'
-            href='https://reactjs.org'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
+          <a className='App-link' href='https://reactjs.org' target='_blank' rel='noopener noreferrer'>
             Learn React
           </a>
           {' | '}
